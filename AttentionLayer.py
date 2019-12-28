@@ -120,3 +120,8 @@ class AttentionLayer(Layer):
             tf.TensorShape((input_shape[1][0], input_shape[1][1], input_shape[1][2])),
             tf.TensorShape((input_shape[1][0], input_shape[1][1], input_shape[0][1]))
         ]
+
+    """testing"""
+if __name__ == "__main__":
+    lyr = AttentionLayer(lyr)
+    print (lyr.compute_output_shape(10))
