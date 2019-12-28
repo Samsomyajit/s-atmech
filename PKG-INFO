@@ -6,9 +6,9 @@ Home-page: https://github.com/Samsomyajit/s-atmech
 Author: Somyajit Chakraborty
 Author-email: somyajitchppr@gmail.com
 License: MIT
-Download-URL: https://github.com/Samsomyajit/s-atmech/blob/master/Dist/s-atmech-pypi1.0.tar.gz
+Download-URL: https://github.com/Samsomyajit/s-atmech/archive/pypiv1.0.tar.gz
 Description: UNKNOWN
-Keywords: scraping,easy,scraper,website,download,links,images,videos
+Keywords: Attention Mechanism', 'Natural Language Processing', 'Copy Mechanism', 'Text Summarization', 'Text Processing', 'Sentiment Analysis'
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
@@ -18,3 +18,4 @@ Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.4
 Classifier: Programming Language :: Python :: 3.5
 Classifier: Programming Language :: Python :: 3.6
+
