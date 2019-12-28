@@ -8,7 +8,7 @@ setup(
   author = 'Somyajit Chakraborty(Sam)',               
   author_email = 'somyajitchppr@gmail.com',     
   url = 'https://github.com/Samsomyajit/s-atmech',   
-  download_url = 'https://github.com/Samsomyajit/s-atmech/archive/pypiv1.0.tar.gz',   
+  download_url = 'https://github.com/Samsomyajit/s-atmech/archive/ver1.0.1.tar.gz',   
   keywords = ['Attention Mechanism', 'Natural Language Processing', 'Copy Mechanism', 'Text Summarization', 'Text Processing', 'Sentiment Analysis'],   # Keywords that define your package best
   install_requires=[         
           'numpy',
