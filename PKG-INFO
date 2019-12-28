@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: s-atmech
+Version: 1.0
+Summary: With s-atmech you can implement attention mechanism as a python library for Natural Language Processing Models/Problems.
+Home-page: https://github.com/Samsomyajit/s-atmech
+Author: Somyajit Chakraborty
+Author-email: somyajitchppr@gmail.com
+License: MIT
+Download-URL: https://github.com/Samsomyajit/s-atmech/blob/master/Dist/s-atmech-pypi1.0.tar.gz
+Description: UNKNOWN
+Keywords: scraping,easy,scraper,website,download,links,images,videos
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
