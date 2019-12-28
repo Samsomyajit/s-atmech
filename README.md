@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/Samsomyajit/s-atmech/blob/master/Misc/logo.png)<br>
+  <space><space>![Logo](https://github.com/Samsomyajit/s-atmech/blob/master/Misc/logo.png?style=centerme)
 
 
 # s-atmech
