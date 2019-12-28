@@ -1,6 +1,7 @@
 
-  <space><space>![Logo](https://github.com/Samsomyajit/s-atmech/blob/master/Misc/logo.png?style=centerme)
-
+ <p align="center">
+  <img  src="https://github.com/Samsomyajit/s-atmech/blob/master/Misc/logo.png">
+</p>
 
 # s-atmech
 s-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. We are still in development stage so we have just made use of the Bahdanau Attention, commonly referred to as Additive Attention, refer to this [paper](https://arxiv.org/pdf/1409.0473.pdf). The paper aimed to improve the sequence-to-sequence model in machine translation by aligning the decoder with the relevant input sentences and implementing Attention. The Flow of calculating Attention weights in Bahdanau Attention is shown below:<br>
