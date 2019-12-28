@@ -6,9 +6,8 @@ from tensorflow.python.keras import backend as K
 
 class AttentionLayer(Layer):
     """
-    This class implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf).
-    There are three sets of weights introduced W_a, U_a, and V_a
-     """
+     There are three sets of weights introduced W_a, U_a, and V_a
+    """
 
     def __init__(self, **kwargs):
         super(AttentionLayer, self).__init__(**kwargs)
@@ -91,7 +90,7 @@ class AttentionLayer(Layer):
             return c_i, [c_i]
 
         def create_inital_state(inputs, hidden_size):
-            # We are not using initial states, but need to pass something to K.rnn funciton
+           
             fake_state = K.zeros_like(inputs)  # <= (batch_size, enc_seq_len, latent_dim
             fake_state = K.sum(fake_state, axis=[1, 2])  # <= (batch_size)
             fake_state = K.expand_dims(fake_state)  # <= (batch_size, 1)
