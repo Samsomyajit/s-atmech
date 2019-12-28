@@ -6,7 +6,7 @@ Home-page: https://github.com/Samsomyajit/s-atmech
 Author: Somyajit Chakraborty
 Author-email: somyajitchppr@gmail.com
 License: MIT
-Download-URL: https://github.com/Samsomyajit/s-atmech/archive/pypiv1.0.tar.gz
+Download-URL: https://github.com/Samsomyajit/s-atmech/archive/ver1.0.1.tar.gz
 Description: s-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. (only supports Bahdanau Attention right now).
 Keywords: Attention Mechanism', 'Natural Language Processing', 'Copy Mechanism', 'Text Summarization', 'Text Processing', 'Sentiment Analysis'
 Platform: UNKNOWN
