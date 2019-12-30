@@ -1,4 +1,4 @@
-
+[![Gitter](https://badges.gitter.im/s-atmech/community.svg)](https://gitter.im/s-atmech/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
  <p align="center">
   <img  src="https://github.com/Samsomyajit/s-atmech/blob/master/Misc/logo.png">
 </p>
