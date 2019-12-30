@@ -48,26 +48,26 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "test_layer.py" }}
           
-    __init__:
-    docker:
-      - image: circleci/python:3.6.1
+    test_import:
+      docker:
+       - image: circleci/python:3.6.1
 
     working_directory: ~/repo
 
-    steps:
-      - checkout
+     steps:
+       - checkout
 
       - run:
-          name: __init__
+          name: test_import
           command: |
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-            python3 -m unittest tests/__init__.py.py
+            python3 -m unittest tests/test_import.py
       - save_cache:
           paths:
             - ./venv
-          key: v1-dependencies-{{ checksum "__init__.py" }}
+          key: v1-dependencies-{{ checksum "test_import.py" }}
           
 
   
@@ -77,5 +77,5 @@ workflows:
     jobs:
       - build
       - test_layer
-      - __init__
+      - test_import
      
