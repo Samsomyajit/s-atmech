@@ -8,4 +8,4 @@ from s-atmech.AttentionLayer import AttentionLayer
 
 if __name__ == "__main__":
     lyr = AttentionLayer(lyr)
-    print (lyr.compute_output_shape(10))
+    lyr.compute_output_shape(10)
