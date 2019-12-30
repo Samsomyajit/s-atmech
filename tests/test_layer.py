@@ -1,1 +1,11 @@
+import tensorflow as tf
+import os
+from tensorflow.python.keras.layers import Layer
+from tensorflow.python.keras import backend as K
 
+import s-atmech as sa
+from s-atmech.AttentionLayer import AttentionLayer
+
+if __name__ == "__main__":
+    lyr = AttentionLayer(lyr)
+    print (lyr.compute_output_shape(10))
