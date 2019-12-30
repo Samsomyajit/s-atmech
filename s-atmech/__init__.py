@@ -1,1 +1,1 @@
-from s-atmech.AttentionLayer import AttentionLayer
+from s-atmech import AttentionLayer
