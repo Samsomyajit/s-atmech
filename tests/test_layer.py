@@ -3,7 +3,7 @@ import os
 from tensorflow.python.keras.layers import Layer
 from tensorflow.python.keras import backend as K
 
-import s-atmech as sa
+
 from s-atmech.AttentionLayer import AttentionLayer
 
 if __name__ == "__main__":
