@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/s-atmech/community.svg)](https://gitter.im/s-atmech/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![CircleCI](https://circleci.com/gh/Samsomyajit/s-atmech/tree/master.svg?style=svg)](https://circleci.com/gh/Samsomyajit/s-atmech/tree/master)[![PyPI version](https://badge.fury.io/py/s-atmech.svg)](https://badge.fury.io/py/s-atmech)
+[![Gitter](https://badges.gitter.im/s-atmech/community.svg)](https://gitter.im/s-atmech/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![CircleCI](https://circleci.com/gh/Samsomyajit/s-atmech/tree/master.svg?style=svg)](https://circleci.com/gh/Samsomyajit/s-atmech/tree/master) [![PyPI version](https://badge.fury.io/py/s-atmech.svg)](https://badge.fury.io/py/s-atmech)
  <p align="center">
   <img  src="https://github.com/Samsomyajit/s-atmech/blob/master/Misc/logo.png">
 </p>
