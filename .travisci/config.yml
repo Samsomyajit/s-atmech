@@ -1,9 +1,0 @@
-{
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-  "group": "stable",
-  ".result": "configured",
-  "language": "ruby"
-}
