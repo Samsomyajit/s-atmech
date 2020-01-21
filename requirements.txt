@@ -1,7 +1,7 @@
 numpy>=1.16.4
 pandas>=0.22.0
 tensorflow
-pytorch
+torch
 matplotlib>=3.1.2
 scikit-learn>=0.22
 jupyter>=1.0.0
