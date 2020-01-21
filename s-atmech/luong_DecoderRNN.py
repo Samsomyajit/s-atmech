@@ -1,4 +1,16 @@
-class LuongAttnDecoderRNN(nn.Module):
+"""
+This layer module implements the luong decoder as a RNN layer thus concluding the attention mechanism.
+by: Somyajit Chakraborty
+"""
+import torch
+import logging
+import torch.nn as nn
+from torch.autograd import Variable
+import torch.nn.functional as F
+from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
+
+
+class luong_DecoderRNN(nn.Module):
     def __init__(self, score_function, hidden_size, input_size, output_size,
                  n_layers, dropout , word_embedding_matrix, use_cuda):
         super(LuongAttnDecoderRNN, self).__init__()
