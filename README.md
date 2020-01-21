@@ -36,6 +36,9 @@ $ pip install --upgrade s-atmech
 Implementation:
 ```python
 >>> from s-atmech.AttentionLayer import AttentionLayer as atl
+>>> from s-atmech import luong_EncoderRNN
+>>> from s-atmech import luong_Attn
+>>> from s-atmech import luong_DecoderRNN
 ```
   
 # Developer Info:
