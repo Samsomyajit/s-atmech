@@ -2,9 +2,9 @@ from distutils.core import setup
 setup(
   name = 's-atmech',         
   packages = ['s-atmech'],   
-  version = '1.1.1',      
+  version = '2.0',      
   license='MIT', 
-  long_description = 's-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. (only supports Bahdanau Attention right now).',
+  long_description = open('README.md').read(),
   description = 's-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. (only supports Bahdanau Attention right now).',  
   author = 'Somyajit Chakraborty(Sam)',               
   author_email = 'somyajitchppr@gmail.com',     
