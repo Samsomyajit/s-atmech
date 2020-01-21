@@ -1,3 +1,14 @@
+"""
+This module implements the Luong Attention Mechanism.
+by: Somyajit Chakraborty
+"""
+import torch
+import logging
+import torch.nn as nn
+from torch.autograd import Variable
+import torch.nn.functional as F
+from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
+
 
 class luong_Attn(nn.Module):
     def __init__(self, method, hidden_size, use_cuda=False):
