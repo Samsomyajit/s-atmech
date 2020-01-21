@@ -5,6 +5,7 @@ setup(
   version = '2.0',      
   license='MIT', 
   long_description = open('README.md').read(),
+  long_description_content_type='text/markdown',
   description = 's-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. (only supports Bahdanau Attention right now).',  
   author = 'Somyajit Chakraborty(Sam)',               
   author_email = 'somyajitchppr@gmail.com',     
