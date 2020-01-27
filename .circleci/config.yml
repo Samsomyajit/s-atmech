@@ -27,27 +27,7 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
-  test_layer:
-    docker:
-      - image: circleci/python:3.6.1
-
-    working_directory: ~/repo
-
-    steps:
-      - checkout
-
-      - run:
-          name: test_layer
-          command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
-            python3 -m unittest tests/test_layer.py
-      - save_cache:
-          paths:
-            - ./venv
-          key: v1-dependencies-{{ checksum "test_layer.py" }}
-          
+ 
   
   
 workflows:
@@ -55,7 +35,7 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - test_layer
+      
       
      
       
