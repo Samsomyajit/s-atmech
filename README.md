@@ -4,7 +4,7 @@
 </p>
 
 # s-atmech
-s-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. We are still in development stage so we have just made use of the Bahdanau Attention, commonly referred to as Additive Attention, refer to this [paper](https://arxiv.org/pdf/1409.0473.pdf). The paper aimed to improve the sequence-to-sequence model in machine translation by aligning the decoder with the relevant input sentences and implementing Attention. The Flow of calculating Attention weights in Bahdanau Attention is shown below:<br>
+s-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. The papers:[click_here1](https://arxiv.org/pdf/1508.04025.pdf)|[click_here2](https://arxiv.org/pdf/1409.0473.pdf) aimed to improve the sequence-to-sequence model in machine translation by aligning the decoder with the relevant input sentences and implementing Attention. The Flow of calculating Attention weights in Bahdanau Attention is shown below:<br>
 <br>
 ![Attention Weights](https://github.com/Samsomyajit/s-atmech/blob/master/Misc/Slide50.jpg)<br>
 After obtaining all of our encoder outputs, we can start using the decoder to produce outputs. At each time step of the decoder, we have to calculate the alignment score of each encoder output with respect to the decoder input and hidden state at that time step. The alignment score is the essence of the Attention mechanism, as it quantifies the amount of “Attention” the decoder will place on each of the encoder outputs when producing the next output.
@@ -36,6 +36,9 @@ $ pip install --upgrade s-atmech
 Implementation:
 ```python
 >>> from s-atmech.AttentionLayer import AttentionLayer as atl
+>>> from s-atmech import luong_EncoderRNN
+>>> from s-atmech import luong_Attn
+>>> from s-atmech import luong_DecoderRNN
 ```
   
 # Developer Info:

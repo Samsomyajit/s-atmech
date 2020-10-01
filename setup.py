@@ -1,10 +1,20 @@
+import setuptools
 from distutils.core import setup
+from setuptools import setup
+
+# read the contents of your README file
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
   name = 's-atmech',         
   packages = ['s-atmech'],   
-  version = '1.1.1',      
+  version = '2.0',      
   license='MIT', 
-  long_description = 's-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. (only supports Bahdanau Attention right now).',
+  long_description = open('README.md').read(),
+  long_description_content_type='text/markdown',
   description = 's-atmech is an independent Open Source, Deep Learning python library which implements attention mechanism as a RNN(Recurrent Neural Network) Layer as Encoder-Decoder system. (only supports Bahdanau Attention right now).',  
   author = 'Somyajit Chakraborty(Sam)',               
   author_email = 'somyajitchppr@gmail.com',     
